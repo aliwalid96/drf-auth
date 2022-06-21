@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+</head>
+<h1 class="header">{% block header %}{% endblock %}</h1>
+<body class="body">
+    {% block content %}{% endblock %}
+</body>
+<style>
+    .header {
+        background-color: rgba(104, 6, 252, 0.521);
+        color:black;
+        padding: 20px;
+    }
+    .body {
+        padding: 10px;
+        background-color: rgba(189, 202, 212, 0.295);
+    }
+
+</style>
+
+</html>
