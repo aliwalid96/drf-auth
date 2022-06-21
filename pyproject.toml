@@ -2,7 +2,7 @@
 name = "django-crud"
 version = "0.1.0"
 description = ""
-authors = ["dialaabulkhail <diala.sh.98@gmail.com>"]
+authors = ["aliwalid96 <ali-waleed96@hotmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
